@@ -21,7 +21,7 @@ func (r *EmployeeRepo) InserEmployee(emp *model.Employee) (interface{}, error) {
 		return nil, err
 	}
 
-	return result, nil
+	return result.InsertedID, nil
 }
 
 func (r *EmployeeRepo) FindEmployeeById(empID string) (*model.Employee, error) {

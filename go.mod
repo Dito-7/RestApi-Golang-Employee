@@ -2,7 +2,10 @@ module RestApi-Golang-Employee
 
 go 1.22.2
 
-require go.mongodb.org/mongo-driver v1.17.2
+require (
+	github.com/google/uuid v1.6.0
+	go.mongodb.org/mongo-driver v1.17.2
+)
 
 require (
 	github.com/golang/snappy v0.0.4 // indirect
