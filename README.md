@@ -37,6 +37,11 @@ go run main.go
 ```
 Server akan berjalan di `http://localhost:4444`
 
+### 5. Api Dokumentasi
+```sh
+https://documenter.getpostman.com/view/33186673/2sAYXCkJic
+```
+
 ## 📜 Lisensi
 MIT License - bebas digunakan dan dikembangkan!
 
